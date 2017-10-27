@@ -22,7 +22,8 @@
             android:layout_alignParentLeft = "true"
             android:background="@drawable/mybutton"
             android:padding="10dp"
-            android:text="Alcohol"
+            android:text="@string/alcohol"
+            android:onClick="sendMessage"
 
             />
         <Button

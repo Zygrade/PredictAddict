@@ -15,6 +15,16 @@
             <item name="android:layout_height">120dp</item>
 
         </style>
+    <!-- Question Style -->
+        <style name="Question">
+
+
+        </style>
+    <!-- Options -->
+        <style name="option_mcq">
+
+
+        </style>
 
 
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Predict Addict</string>
+    <string name="alcohol">Alcohol</string>
 </resources>
