@@ -5,6 +5,35 @@
 
 import pandas as pd
 import numpy as np
+import json
+import urllib2
+import requests
+
+request='myrequest'
+data = requests.get(request)
+json = data.json()
+df = pd.DataFrame(json)
+df = df.values
+
+import sys
+
+data = {}
+data['sex'] = sys.argv[1]
+data['address'] = sys.argv[2]
+data['familysize'] = sys.argv[3]
+data['Pstatus'] = sys.argv[4]
+data['Medu'] = sys.argv[5]
+data['Fedu'] = sys.argv[6]
+data['Mjob'] = sys.argv[7]
+data['Fjob'] = sys.argv[8]
+data['traveltime'] = sys.argv[9]
+data['studytime'] = sys.argv[10]
+data['failures'] = sys.argv[11]
+data['paid'] = sys.argv[12]
+data['activities'] = sys.argv[13]
+data['famrel'] = sys.argv[14]
+data['goout'] = sys.argv[15]
+data['percentage'] = sys.argv[16]
 
 
 # In[179]:
@@ -237,8 +266,7 @@ clf = RandomForestClassifier(n_estimators=60)
 
 # In[222]:
 
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(train, labels, test_size=0.2)
+)
 
 
 # In[223]:
@@ -253,30 +281,20 @@ y_test.shape
 
 # In[225]:
 
-clf.fit(X_train, y_train)
+clf.fit(train, labels)
 
 
 # In[226]:
 
-y_A = clf.predict(X_test)
+y_A = clf.predict(df)
 
 
 # In[227]:
 
 y_A
 
-
-# In[228]:
-
-y_test
-
-
-# In[229]:
-
-100*float((y_A==y_test).sum())/y_test.shape[0]
+print(y_A)
+sys.stdout.flush()
 
 
 # In[ ]:
-
-
-
