@@ -17,23 +17,23 @@ df = df.values
 
 import sys
 
-data = {}
-data['sex'] = sys.argv[1]
-data['address'] = sys.argv[2]
-data['familysize'] = sys.argv[3]
-data['Pstatus'] = sys.argv[4]
-data['Medu'] = sys.argv[5]
-data['Fedu'] = sys.argv[6]
-data['Mjob'] = sys.argv[7]
-data['Fjob'] = sys.argv[8]
-data['traveltime'] = sys.argv[9]
-data['studytime'] = sys.argv[10]
-data['failures'] = sys.argv[11]
-data['paid'] = sys.argv[12]
-data['activities'] = sys.argv[13]
-data['famrel'] = sys.argv[14]
-data['goout'] = sys.argv[15]
-data['percentage'] = sys.argv[16]
+data_ser = np.array(sys.argv)
+#data['sex'] = sys.argv[1]
+#data['address'] = sys.argv[2]
+#data['familysize'] = sys.argv[3]
+#data['Pstatus'] = sys.argv[4]
+#data['Medu'] = sys.argv[5]
+#data['Fedu'] = sys.argv[6]
+#data['Mjob'] = sys.argv[7]
+#data['Fjob'] = sys.argv[8]
+#data['traveltime'] = sys.argv[9]
+#data['studytime'] = sys.argv[10]
+#data['failures'] = sys.argv[11]
+#data['paid'] = sys.argv[12]
+#data['activities'] = sys.argv[13]
+#data['famrel'] = sys.argv[14]
+#data['goout'] = sys.argv[15]
+#data['percentage'] = sys.argv[16]
 
 
 # In[179]:
@@ -286,15 +286,16 @@ clf.fit(train, labels)
 
 # In[226]:
 
-y_A = clf.predict(df)
+#y_A = clf.predict(df)
 
-
+pred = clf.predict(data_ser)
 # In[227]:
 
-y_A
+#y_A
 
-print(y_A)
+print(pred)
 sys.stdout.flush()
+#print(y_A)
 
 
 # In[ ]:
