@@ -12,6 +12,246 @@
       </div>
     </div>
 
+    <div class="container">
+
+      <form method="POST" action="/success-page">
+
+        <div class="form-group">
+          <label for="exampleInputEmail1" name="email">Email address</label>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 1. GENDER : </h5>
+        <br>
+
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio1" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">MALE</span>
+        </label>
+
+        <label class="custom-control custom-radio" style="margin-left:160px">
+          <input id="radio2" name="radio2" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">FEMALE</span>
+        </label>
+
+        <label class="custom-control custom-radio" style="margin-left:150px">
+          <input id="radio2" name="radio2" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">OTHER</span>
+        </label>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 2. REGION : </h5>
+        <br>
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio1" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">URBAN</span>
+        </label>
+
+        <label class="custom-control custom-radio" style="margin-left:150px">
+          <input id="radio2" name="radio2" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">RURAL</span>
+        </label>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 3. SIZE OF FAMILY  : </h5>
+        <br>
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio1" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">LESS THAN OR EQUAL TO THREE</span>
+        </label>
+
+        <label class="custom-control custom-radio" style="margin-left:150px">
+          <input id="radio2" name="radio2" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">MORE THAN THREE</span>
+        </label>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 4. MARITAL STATUS OF PARENTS  : </h5>
+        <br>
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio1" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">LIVING TOGETHER</span>
+        </label>
+
+        <label class="custom-control custom-radio" style="margin-left:150px">
+          <input id="radio2" name="radio2" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">LIVING SEPARATE</span>
+        </label>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 5. EDUCATION QUALIFICATIONS OF MOTHER  : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">NONE</option>
+          <option value="2">PRIMARY SCHOOLING</option>
+          <option value="3">HIGH SCHOOLING</option>
+          <option value="4">SECONDARY SCHOOLING</option>
+          <option value="5">hIGHER EDUCATION</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 6. EDUCATION QUALIFICATIONS OF FATHER  : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">NONE</option>
+          <option value="2">PRIMARY SCHOOLING</option>
+          <option value="3">HIGH SCHOOLING</option>
+          <option value="4">SECONDARY SCHOOLING</option>
+          <option value="5">hIGHER EDUCATION</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 7. OCCUPATION OF FATHER  : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">TEACHER</option>
+          <option value="2">HEALTH CARE REALTED</option>
+          <option value="3">CIVIL SERVICES</option>
+          <option value="4">OTHER</option>
+          <option value="5">JOBLESS</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 8. OCCUPATION OF MOTHER  : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">TEACHER</option>
+          <option value="2">HEALTH CARE REALTED</option>
+          <option value="3">CIVIL SERVICES</option>
+          <option value="4">OTHER</option>
+          <option value="5">JOBLESS</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 9. TRAVELLING TIME : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">LESS THAN 15 mins.</option>
+          <option value="2">15-30 mins.</option>
+          <option value="3">30 mins TO 1 hr.</option>
+          <option value="4">MORE THAN 1 hr.</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 10. STUDYING HOURS : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">LESS THAN 2 hr.</option>
+          <option value="2">2-5 hr.</option>
+          <option value="3">5-10 hr.</option>
+          <option value="4">MORE THAN 10 hr.</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 11. FAILED (NUMBER OF TIMES) : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">MORE THAN 3</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 12. FAMILY REALTION { 1 (LOWEST) - 5 (HIGHEST) } : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 13. GOING OUT WITH FRIENDS { 1 (LOWEST) - 5 (HIGHEST) } : </h5>
+        <br>
+        <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h5 class="display-5"> 14. COACHING CLASSES/TUITIONS APART FROM SCHOOL : </h5>
+        <br>
+        <label class="custom-control custom-radio">
+          <input id="radio1" name="radio1" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">YES</span>
+        </label>
+
+        <label class="custom-control custom-radio" style="margin-left:160px">
+          <input id="radio2" name="radio2" type="radio" class="custom-control-input">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">NO</span>
+        </label>
+
+        <br>
+        <br>
+
+
+        <button type="submit" class="btn btn-danger btn-lg btn-block">SUBMIT THE RESPONSES</button>
+
+      </form>
+
+      <br>
+      <br>
+      <br>
+
+    </div>
+
+
 
 
 

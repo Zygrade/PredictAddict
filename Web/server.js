@@ -20,6 +20,13 @@ app.get('/response',function(req,res){
 
 app.post('/response',urlencodedParser,function(req,res){
     res.render('response',{qs:req.body});
-    console.log(JSON.stringify(req.body.email));
-    console.log(JSON.stringify(req.body.password));
+});
+
+app.get('/success-page',function(req,res){
+     res.sendFile(__dirname + '/success-page');
+});
+
+app.post('/success-page',urlencodedParser,function(req,res){
+     res.render('success-page',{qs:req.body});
+     console.log(JSON.stringify(req.body.radio2));
 });
