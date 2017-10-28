@@ -28,5 +28,5 @@ app.get('/success-page',function(req,res){
 
 app.post('/success-page',urlencodedParser,function(req,res){
      res.render('success-page',{qs:req.body});
-     console.log(JSON.stringify(req.body.radio2));
+     console.log(req.body);
 });
