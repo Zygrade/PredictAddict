@@ -10,4 +10,5 @@ public class StartTest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_test);
     }
+
 }

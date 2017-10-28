@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Predict Addict</string>
     <string name="alcohol">Alcohol</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="urban">Urban</string>
+    <string name="rural">Rural</string>
+    <string name="binar">Binary</string>
+    <string name="lesstthree">Less than 3</string>
+    <string name="morethree">Greater than 3</string>
+
+
 </resources>

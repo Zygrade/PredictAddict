@@ -17,7 +17,10 @@
         </style>
     <!-- Question Style -->
         <style name="Question">
-
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:textSize">18sp</item>
+            <item name="android:textColor">@color/colorAccent</item>
 
         </style>
     <!-- Options -->
