@@ -1,0 +1,70 @@
+Q1) Sex:
+	Male
+	Female
+Q2) Region:
+	Urban
+	Rural
+Q3) Family Size:
+	Binary
+	Less or Equal to 3
+	Greater than 3
+Q4) Parents Marital Status:
+	Living Together
+	Living Apart
+Q5) Mother's Education:
+	None
+	Primary School
+	5-9 Grade
+	Secondary Education
+	Higher Education
+Q6) Father's Education:
+	None
+	Primary School
+	5-9 Grade
+	Secondary Education
+	Higher Education
+Q7) Mother's Job:
+	Teacher
+	Health care related
+	Civil Service
+	Stay at home
+	Other
+Q8) Father's Job:
+	Teacher
+	Health care related
+	Civil Service
+	Stay at home
+	Other
+Q9) Traveling time:
+	<15 mins
+	15-30 mins
+	30 mins - 1 hr
+	>1 hr
+	
+Q10) Study Time:
+	<2 hr
+	2 hr - 5 hr
+	5hr -10 hr
+	>10 hr
+Q11) Failure:
+	1
+	2
+	3
+	>3
+Q12) Extra Paid Classes:
+	Yes
+	No
+Q13) Family Relation:
+	1
+	2
+	3	
+	4
+	5       {1-bad : 5-good}
+Q14) Going out with friends:
+	1
+	2
+	3	
+	4
+	5       {1-bad : 5-good}
+Q15) CGPA: 
+	
